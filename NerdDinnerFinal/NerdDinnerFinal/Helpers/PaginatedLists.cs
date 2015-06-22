@@ -6,6 +6,12 @@ namespace NerdDinnerFinal.Helpers
 {
     public class PaginatedList<T> : List<T>
     {
+        public int PageIndex { get; private set; }
+        public int PageSize { get; private set; }
+        public int TotalCount { get; private set; }
+        public int TotalPages { get; private set; }
+
+
         public PaginatedList(IQueryable<T> source, int pageIndex, int pageSize)
         {
             PageIndex = pageIndex;
@@ -16,10 +22,7 @@ namespace NerdDinnerFinal.Helpers
             AddRange(source.Skip(PageIndex*PageSize).Take(PageSize));
         }
 
-        public int PageIndex { get; private set; }
-        public int PageSize { get; private set; }
-        public int TotalCount { get; private set; }
-        public int TotalPages { get; private set; }
+       
 
         public bool HasPreviousPage
         {

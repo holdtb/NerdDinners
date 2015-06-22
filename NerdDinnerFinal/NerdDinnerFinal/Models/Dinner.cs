@@ -37,8 +37,8 @@ namespace NerdDinnerFinal.Models
         [Required(ErrorMessage = "You must enter a country")]
         public string Country { get; set; }
 
-        public decimal Latitude { get; set; }
-        public decimal Longitude { get; set; }
+        public float Latitude { get; set; }
+        public float Longitude { get; set; }
 
         [Required(ErrorMessage = "Please say what the event is about")]
         [MaxLength(140, ErrorMessage = "The description must be 140 characters or less")]

@@ -1,4 +1,3 @@
-C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.csprojResolveAssemblyReference.cache
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\NerdDinnerFinal.Tests.dll.config
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\NerdDinnerFinal.Tests.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\NerdDinnerFinal.Tests.pdb
@@ -23,6 +22,7 @@ C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\EntityFra
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\System.Web.Optimization.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\CodeFirstStoreFunctions.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\DotNetOpenAuth.Core.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
@@ -78,5 +78,6 @@ C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\ko\System
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\ru\System.Spatial.resources.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.csprojResolveAssemblyReference.cache
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.pdb

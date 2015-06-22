@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CodeFirstStoreFunctions, Version=0.1.0.0, Culture=neutral, PublicKeyToken=46c4868af4307d2c, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.CodeFirstStoreFunctions.1.0.0\lib\net45\CodeFirstStoreFunctions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -203,6 +207,23 @@
     </Compile>
     <Compile Include="Helpers\ControllerHelpers.cs" />
     <Compile Include="Helpers\PaginatedLists.cs" />
+    <Compile Include="Migrations\201506222046122_rev.cs" />
+    <Compile Include="Migrations\201506222046122_rev.Designer.cs">
+      <DependentUpon>201506222046122_rev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506222106240_dub.cs" />
+    <Compile Include="Migrations\201506222106240_dub.Designer.cs">
+      <DependentUpon>201506222106240_dub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506222108364_flo.cs" />
+    <Compile Include="Migrations\201506222108364_flo.Designer.cs">
+      <DependentUpon>201506222108364_flo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506222147384_fl.cs" />
+    <Compile Include="Migrations\201506222147384_fl.Designer.cs">
+      <DependentUpon>201506222147384_fl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Dinner.cs" />
     <Compile Include="Models\DinnersRepository.cs" />
@@ -218,7 +239,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\Map.js" />
     <Content Include="Views\Dinners\InvalidOwner.cshtml" />
-    <Content Include="Views\Dinners\Map.cshtml" />
+    <Content Include="Views\Shared\Map.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -307,6 +328,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201506222046122_rev.resx">
+      <DependentUpon>201506222046122_rev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506222106240_dub.resx">
+      <DependentUpon>201506222106240_dub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506222108364_flo.resx">
+      <DependentUpon>201506222108364_flo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506222147384_fl.resx">
+      <DependentUpon>201506222147384_fl.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
