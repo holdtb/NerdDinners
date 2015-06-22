@@ -1,0 +1,29 @@
+﻿@model NerdDinnerFinal.Helpers.PaginatedList<NerdDinnerFinal.Models.Dinner>
+
+@{
+    ViewBag.Title = "Dinners";
+}
+
+<h2>Upcoming Dinners</h2>
+
+<ul>
+    @foreach (var dinner in Model)
+    {
+        <li>
+            @Html.ActionLink(@dinner.Title, "Details", new { id = dinner.DinnerId })
+            on
+            @Html.Encode(dinner.EventDate.ToShortDateString())
+            @@
+            @Html.Encode(dinner.EventDate.ToShortTimeString())
+        </li>
+    }
+
+    @if (Model.HasPreviousPage)
+    {
+        @Html.RouteLink("<<<", "UpcomingDinners", new { page = (-1) })
+    }
+    @if (Model.HasNextPage)
+    {
+        @Html.RouteLink(">>>", "UpcomingDinners", new { page = (Model.PageIndex + 1) })
+    }
+</ul>

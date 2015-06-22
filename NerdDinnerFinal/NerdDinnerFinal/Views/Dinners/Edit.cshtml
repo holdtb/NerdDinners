@@ -1,0 +1,19 @@
+﻿@model NerdDinnerFinal.Models.ViewModels.DinnerFormViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Dinner</h2>
+
+@{
+    Html.RenderPartial("DinnerForm");
+}
+
+<div>
+    @if (Model.Dinner.IsHostedBy(Context.User.Identity.Name))
+    {
+        Html.ActionLink("Edit Dinner", "Edit", new {id = Model.Dinner.DinnerId});
+        Html.ActionLink("Delete Dinner", "Delete", new {id = Model.Dinner.DinnerId});
+    }
+</div>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdDinnerFinal", "NerdDinnerFinal\NerdDinnerFinal.csproj", "{F1941E4A-D8B8-45E5-B7B6-461C614735C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdDinnerFinal.Tests", "NerdDinnerFinal.Tests\NerdDinnerFinal.Tests.csproj", "{09D394AE-16D3-4772-9C56-B92C7CB14684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1941E4A-D8B8-45E5-B7B6-461C614735C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1941E4A-D8B8-45E5-B7B6-461C614735C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1941E4A-D8B8-45E5-B7B6-461C614735C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1941E4A-D8B8-45E5-B7B6-461C614735C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D394AE-16D3-4772-9C56-B92C7CB14684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D394AE-16D3-4772-9C56-B92C7CB14684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D394AE-16D3-4772-9C56-B92C7CB14684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D394AE-16D3-4772-9C56-B92C7CB14684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
