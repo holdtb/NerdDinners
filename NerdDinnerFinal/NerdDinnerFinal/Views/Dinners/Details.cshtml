@@ -27,6 +27,13 @@
         @Model.HostedBy
         (@Model.ContactPhone)
     </p>
+
+    <div id="mapDiv">
+        @{
+            Html.RenderPartial("Map");
+        }
+    </div>
+   
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.DinnerId }) |
