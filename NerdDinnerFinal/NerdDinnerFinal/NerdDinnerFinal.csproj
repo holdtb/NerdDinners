@@ -227,6 +227,7 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Dinner.cs" />
     <Compile Include="Models\DinnersRepository.cs" />
+    <Compile Include="Models\IDinnersRepository.cs" />
     <Compile Include="Models\NerdDinnersDbContext.cs" />
     <Compile Include="Models\RSVP.cs" />
     <Compile Include="Models\ViewModels\DinnerFormViewModel.cs" />

@@ -55,7 +55,7 @@ namespace NerdDinnerFinal.Tests.Fakes
         {
             foreach (Dinner dinner in dinnerList)
             {
-                if (!dinner.IsValid)
+                if (!dinner.IsValid())
                     throw new ApplicationException("Rule violations");
             }
         }
