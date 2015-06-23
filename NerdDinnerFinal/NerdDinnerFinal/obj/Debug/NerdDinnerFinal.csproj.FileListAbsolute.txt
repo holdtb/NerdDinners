@@ -113,3 +113,7 @@ C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\obj\Debug\NerdDinnerFinal
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\obj\Debug\NerdDinnerFinal.Migrations.flo.resources
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\obj\Debug\NerdDinnerFinal.csprojResolveAssemblyReference.cache
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\obj\Debug\NerdDinnerFinal.Migrations.fl.resources
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\bin\FakeItEasy.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\bin\Moq.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\bin\FakeItEasy.xml
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal\bin\Moq.xml

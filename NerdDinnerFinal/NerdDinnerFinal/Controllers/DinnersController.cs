@@ -52,7 +52,7 @@ namespace NerdDinnerFinal.Controllers
         {
             var dinner = dinnerRepository.GetDinner(id);
 
-            if (dinner.IsHostedBy(User.Identity.Name))
+            if (!dinner.IsHostedBy(User.Identity.Name))
                 return View("InvalidOwner");
 
             return View(new DinnerFormViewModel(dinner));
@@ -64,7 +64,7 @@ namespace NerdDinnerFinal.Controllers
         {
             var dinner = dinnerRepository.GetDinner(id);
 
-            if(dinner.IsHostedBy(User.Identity.Name))
+            if(!dinner.IsHostedBy(User.Identity.Name))
                 return View("InvalidOwner");
 
             try

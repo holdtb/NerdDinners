@@ -81,3 +81,7 @@ C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\zh-Hant\S
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.csprojResolveAssemblyReference.cache
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.dll
 C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\obj\Debug\NerdDinnerFinal.Tests.pdb
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\FakeItEasy.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\Moq.dll
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\FakeItEasy.xml
+C:\git\NerdDinnerFinal\NerdDinnerFinal\NerdDinnerFinal.Tests\bin\Debug\Moq.xml
