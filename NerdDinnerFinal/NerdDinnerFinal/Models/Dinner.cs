@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 
@@ -10,6 +11,7 @@ namespace NerdDinnerFinal.Models
     //[Bind(Include="Title,Description,EventDate,Address,Country,HostedBy,ContactPhone,Latitude,Longitude")]
     public partial class Dinner
     {
+
         public int DinnerId { get; set; }
 
         [Required(ErrorMessage = "Please enter a Dinner Title")]
@@ -50,6 +52,12 @@ namespace NerdDinnerFinal.Models
         {
             return HostedBy.Equals(userName, StringComparison.InvariantCultureIgnoreCase);
         }
+
+        public bool IsValid()
+        {
+            return !GetRuleViolations().Any();
+        }
+
 
         public IEnumerable<RuleViolation> GetRuleViolations()
         {

@@ -7,7 +7,7 @@ using System.Data.Entity.Core.Objects;
 
 namespace NerdDinnerFinal.Models
 {
-    public class DinnersRepository
+    public class DinnersRepository : IDinnersRepository
     {
         private NerdDinnersDbContext db = new NerdDinnersDbContext();
 
