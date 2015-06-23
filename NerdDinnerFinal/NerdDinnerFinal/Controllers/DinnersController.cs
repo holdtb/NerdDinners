@@ -9,7 +9,21 @@ namespace NerdDinnerFinal.Controllers
 {
     public class DinnersController : Controller
     {
-        private readonly DinnersRepository dinnerRepository = new DinnersRepository();
+        private IDinnersRepository dinnerRepository;
+
+
+        public DinnersController()
+            : this(new DinnersRepository())
+        {
+            
+        }
+
+        public DinnersController(IDinnersRepository repository)
+        {
+            dinnerRepository = repository;
+        }
+
+
         // GET: /Dinners/
         //      /Dinners?page=2
         public ActionResult Index(int? page)
